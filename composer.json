@@ -1,0 +1,32 @@
+{
+    "name": "a-afsharfarnia/data-mapper",
+    "type": "helper",
+    "description": "This is a package to make a simple data mapper",
+    "keywords": ["a-afsharfarnia", "data-mapper", "data mapper", "map-data", "map data"],
+    "homepage": "https://github.com/a-afsharfarnia/php-data-mapper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abbas Afsharfarnia",
+            "email": "afshar5152@gmail.com",
+            "homepage": "http://afsharfarnia.com",
+            "role": "Senior Backend Developer"
+        }
+    ],
+    "require": {
+        "php": "7.2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Afsharfarnia\\DataMapper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Afsharfarnia\\DataMapper\\tests\\": "tests/"
+        }
+    }
+}
